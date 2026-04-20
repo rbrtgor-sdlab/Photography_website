@@ -1,13 +1,13 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #3915d8;
     font-family: 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #333;
+    background-color: blue;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 section {
@@ -35,8 +35,41 @@ h3 {
     margin-top: 0;
     text-align: left;
 }
-.nature-photos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+ul {
+    list-style-type: none;
+    padding: 10px;
 }
+li a{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+nav ul li {     
+    list-style-type: none;
+}  

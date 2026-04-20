@@ -8,15 +8,24 @@
   </head>
   <body>
     <header>
-      <h1>Photography Portfolio</h1>
+       <h1>Photography Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#biography">Biography</a></li>
+          <li><a href="#gallery">Photo Gallery</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
-    <section>
+      </ul>
+    </header>
+    <section id="biography">
       <h2>Biography</h2>
       <p>
         Hi, my name is Robert Gor Onyango, and I am a passionate photographer with over 10 years of experience in capturing life's most precious moments. My journey into photography began when I was a child, and I have been honing my skills ever since. I specialize in various genres of photography, including wedding, nature, birthday, and graduation photography. My work is characterized by its vibrant colors, attention to detail, and ability to tell a story through images. I believe that every photograph has the power to evoke emotions and create lasting memories. Through my portfolio, I aim to share my love for photography and inspire others to see the world through a different lens.
       </p>
     </section>
-    <section>
+    <section id="gallery">
       <h2>Photo Gallery</h2>
       <div class="wedding-photos">
         <h3><em>Wedding Photos<em></em></h3>
@@ -38,8 +47,11 @@
         <img src="./grad1.jpg" alt="Photo 13" />
         <img src="./grad2.jpg" alt="Photo 14" />
       </div>
-       <section id="contact">
+    </section >
+    <section id="contact">
+      <h2>Contact Us</h2>
     <form>
+      <div>
         <h1>Contact Us</h1>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
@@ -48,7 +60,8 @@
         <label for="message">Message:</label><br>
         <textarea id="message" name="message"></textarea><br><br>
         <button type="submit"> Send Message</button>
-    </section>
+      </div>
+    </form>
     </section>
     <footer>&copy;2026. I do not own the rights to the images displayed. For educational purposes only. For removal requests, please contact us.</footer>
   </body>
