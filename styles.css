@@ -1,0 +1,42 @@
+body{
+    background-color: #f0f0f0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: lightslategrey;
+    border-radius: 5px;
+}
+section:hover {
+    background-color: #dcdcdc;
+}
+h1, h2, h3 {
+    color: #e80b0b;
+}
+.wedding-photos, .nature-photos, .birthday-photos, .graduation- photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+h3 {
+    margin-top: 0;
+    text-align: left;
+}
+.nature-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
