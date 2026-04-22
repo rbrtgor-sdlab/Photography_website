@@ -19,7 +19,9 @@ section {
 section:hover {
   background-color: #dcdcdc;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #e80b0b;
 }
 .wedding-photos,
@@ -49,45 +51,47 @@ li a {
   flex-wrap: wrap;
 }
 form {
-    max-width: 600px;
-    margin: 20px auto;
+  max-width: 600px;
+  margin: 20px auto;
 }
 form label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
 }
-form input, textarea {
-    width: 100%;
-    padding: 14px;
-    margin-bottom: 18px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+form input,
+textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
-form input:focus, textarea:focus {
-    border-color: #007bff;
-    outline: none;
+form input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
 }
 form button {
-    background-color: #007bff;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 600;
-    border: none;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 form button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 form button:active {
-    background-color: #004085;
-}   
+  background-color: #004085;
+}
 nav ul {
   display: flex;
   justify-content: right;
@@ -97,7 +101,16 @@ nav ul li {
   list-style-type: none;
 }
 img {
-    display: block;
+  display: block;
   width: 100%;
   height: auto;
+}
+ .birthday-photos, .graduation-photos, .nature-photos, .wedding-photos {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+img {
+  flex: 1 1 calc(33.33% - 10px); 
+  max-width: 100%;
 }
