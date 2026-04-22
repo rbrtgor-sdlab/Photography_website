@@ -1,75 +1,103 @@
-body{
-    background-color: #3915d8;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+  background-color: #3915d8;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 header {
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 section {
-    margin: 20px;
-    padding: 20px;
-    background-color: lightslategrey;
-    border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightslategrey;
+  border-radius: 5px;
 }
 section:hover {
-    background-color: #dcdcdc;
+  background-color: #dcdcdc;
 }
 h1, h2, h3 {
-    color: #e80b0b;
+  color: #e80b0b;
 }
-.wedding-photos, .nature-photos, .birthday-photos, .graduation- photos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.wedding-photos,
+.nature-photos,
+.birthday-photos,
+.graduation- photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 h2 {
-    margin-top: 0;
-    text-align: center;
+  margin-top: 0;
+  text-align: center;
 }
 h3 {
-    margin-top: 0;
-    text-align: left;
+  margin-top: 0;
+  text-align: left;
 }
 ul {
-    list-style-type: none;
-    padding: 10px;
+  list-style-type: none;
+  padding: 10px;
 }
-li a{
-    margin-bottom: 5px;
-    text-decoration: none;
-    color: black;
-    flex-wrap: wrap;
+li a {
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: black;
+  flex-wrap: wrap;
 }
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
-    margin: 0 auto;
+form {
+    max-width: 600px;
+    margin: 20px auto;
 }
-.contact-form input, .contact-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
 }
-.contact-form button {
-    padding: 10px;
-    background-color: blue;
+form input, textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+form input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+form button {
+    background-color: #007bff;
     color: white;
+    padding: 12px 20px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;    
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
 }
+form button:hover {
+    background-color: #0056b3;
+}
+form button:active {
+    background-color: #004085;
+}   
 nav ul {
-    display: flex;
-    justify-content: right;
-    gap: 20px;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
 }
-nav ul li {     
-    list-style-type: none;
-}  
+nav ul li {
+  list-style-type: none;
+}
+img {
+    display: block;
+  width: 100%;
+  height: auto;
+}
