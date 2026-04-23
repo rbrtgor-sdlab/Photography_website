@@ -122,5 +122,7 @@ div{
   position: -webkit-sticky;
 }
 #biography {
-  display: flexbox;
+  display: flex;
+  margin: 20px;
+  padding: 0%;
 }
