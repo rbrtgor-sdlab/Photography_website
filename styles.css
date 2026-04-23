@@ -117,11 +117,6 @@ img {
   object-fit: centre;
   margin: 20px auto;
 }
-div{
-  display: inline-block;
-  position: -webkit-sticky;
-  contain: content;
-}
 #biography {
   display: flex;
   margin: 20px;
@@ -136,4 +131,10 @@ div{
   justify-content: space-between;
   display: flex;
   align-items: center;
+  background-color: grey;
+}
+section{
+  justify-content: space-between;
+  display: block;
+  align-content: center;
 }
