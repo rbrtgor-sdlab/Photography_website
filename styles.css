@@ -120,6 +120,7 @@ img {
 div{
   display: inline-block;
   position: -webkit-sticky;
+  contain: content;
 }
 #biography {
   display: flex;
