@@ -101,18 +101,13 @@ nav ul li {
   list-style-type: none;
 }
 img {
-  display: block;
+  display: inline-block;
   width: 100%;
   height: auto;
 }
  .birthday-photos, .graduation-photos, .nature-photos, .wedding-photos {
-  display: flex;
-  flex-wrap: wrap; 
+  display: inline-block; 
   gap: 10px;
-}
-img {
-  flex: 1 1 calc(33.33% - 10px); 
-  max-width: 100%;
 }
 .passport-photo {
   width: 150px;
