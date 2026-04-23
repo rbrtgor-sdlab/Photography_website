@@ -129,6 +129,11 @@ div{
 }
 #logo {
   border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.header{
+  justify-content: space-between;
   display: flex;
-  ;
+  align-items: center;
 }
