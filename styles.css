@@ -117,3 +117,7 @@ img {
   object-fit: centre;
   margin: 20px auto;
 }
+div{
+  display: inline-block;
+  position: -webkit-sticky;
+}
