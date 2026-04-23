@@ -121,3 +121,6 @@ div{
   display: inline-block;
   position: -webkit-sticky;
 }
+#biography {
+  display: flexbox;
+}
