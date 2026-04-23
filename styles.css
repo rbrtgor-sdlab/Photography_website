@@ -127,3 +127,8 @@ div{
   margin: 20px;
   padding: 0%;
 }
+#logo {
+  border-radius: 50%;
+  display: flex;
+  ;
+}
